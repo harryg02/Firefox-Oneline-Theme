@@ -70,7 +70,7 @@
     background: transparent !important;
     border: none !important;
     box-shadow: none !important;
-    transition: 0.2s;
+    transition: 0.2s; test
     top: 4px !important;
     position: relative;
 }
