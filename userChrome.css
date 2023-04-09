@@ -19,21 +19,21 @@
 }
 
 #TabsToolbar {
-    margin-left: 28.3vw !important; /* Tab reserved space for toolbar*/
+    margin-left: 28.8vw !important; /* Tab reserved space for url bar*/
 }
 
 /* Nav bar*/
 #nav-bar {
     background: transparent !important;
     margin-top: -42px !important;
-    margin-right: 71.4vw !important; /* Nav bar (tabs) width, the larger the value the narrower the url bar*/
+    margin-right: 70.8vw !important; /* Nav bar (tabs) width, the lower value less url bar items*/
 }
 
 /* hide icons when navbar active*/
 
 /* URL bar */
 #back-button {
-    margin-left: -7px !important;
+    margin-left: -4px !important;
     /* margin-top: 1px !important; */
 }
 
@@ -48,7 +48,7 @@
 
 /* reload button position */
 .chromeclass-toolbar-additional {
-  margin-left: -1px !important;
+  margin-left: -0px !important;
   margin-bottom: 2px !important;
  } 
 
@@ -60,9 +60,10 @@
 
 /* URL bar */
 #urlbar-container {    
-    min-width: 109px !important;
+    min-width: 108px !important;
+    width: 160px !important;
     transition: 0.1s;
-    margin-left: 2px !important;
+    margin-left: 1px !important;
 }
 
 /* URL bar position */
@@ -78,14 +79,12 @@
 
 
 /* URL bar after click */
-
-
 #urlbar[focused]:not([open]),
 #urlbar[breakout][breakout-extend] {
   top: 3.5px !important;
   left: -71px !important;
   /* left: -4.5vw !important; */
-  width: 27.5vw !important;
+  width: 28.2vw !important;
   padding: 0px !important;
   z-index: 999  !important;
 }
