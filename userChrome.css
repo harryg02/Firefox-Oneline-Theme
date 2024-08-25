@@ -60,8 +60,8 @@
 
 /* URL bar */
 #urlbar-container {    
-    min-width: 80px !important;
-    width: 109px !important;
+    min-width: 90px !important;
+    width: 139px !important;
     transition: 0.1s;
     margin-left: 1px !important;
 }
@@ -78,11 +78,11 @@
 }
 
 
-/* URL bar after click */
+/* URL bar active */
 #urlbar[focused]:not([open]),
 #urlbar[breakout][breakout-extend] {
   top: 3.5px !important;
-  left: -75px !important;
+  left: -80px !important;
   /* left: -4.5vw !important; */
   width: 28.2vw !important;
   padding: 0px !important;
