@@ -61,7 +61,7 @@
 /* URL bar */
 #urlbar-container {    
     /* min-width: 8vw !important; */
-    width: 10.9vw !important;
+    width: 12.5vw !important;
     transition: 0.1s;
     margin-left: 1px !important;
 }
