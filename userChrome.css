@@ -19,14 +19,14 @@
 }
 
 #TabsToolbar {
-    margin-left: 28.8vw !important; /* Tab reserved space for url bar*/
+    margin-left: 30vw !important; /* Tab reserved space for url bar*/
 }
 
 /* Nav bar*/
 #nav-bar {
     background: transparent !important;
     margin-top: -42px !important;
-    margin-right: 70.8vw !important; /* Nav bar (tabs) width, the lower value less url bar items*/
+    margin-right: 69.8vw !important; /* Nav bar (tabs) width, the lower value less url bar items*/
 }
 
 /* hide icons when navbar active*/
@@ -60,7 +60,7 @@
 
 /* URL bar */
 #urlbar-container {    
-    min-width: 90px !important;
+    min-width: 70px !important;
     width: 139px !important;
     transition: 0.1s;
     margin-left: 1px !important;
@@ -82,9 +82,9 @@
 #urlbar[focused]:not([open]),
 #urlbar[breakout][breakout-extend] {
   top: 3.5px !important;
-  left: -80px !important;
+  left: -6.3vw !important;
   /* left: -4.5vw !important; */
-  width: 28.2vw !important;
+  width: 29.4vw !important;
   padding: 0px !important;
   z-index: 999  !important;
 }
