@@ -82,7 +82,7 @@
 #urlbar[focused]:not([open]),
 #urlbar[breakout][breakout-extend] {
   top: 3.5px !important;
-  left: -6.3vw !important;
+  left: -5.5vw !important;
   /* left: -4.5vw !important; */
   width: 29.4vw !important;
   padding: 0px !important;
