@@ -60,8 +60,8 @@
 
 /* URL bar */
 #urlbar-container {    
-    min-width: 70px !important;
-    width: 139px !important;
+    /* min-width: 8vw !important; */
+    width: 10.9vw !important;
     transition: 0.1s;
     margin-left: 1px !important;
 }
@@ -73,7 +73,7 @@
     border: none !important;
     box-shadow: none !important;
     transition: 0.2s;
-    top: 4px !important;
+    top: 3px !important;
     position: relative;
 }
 
